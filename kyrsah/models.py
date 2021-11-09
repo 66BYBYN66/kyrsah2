@@ -52,5 +52,5 @@ class Comment(models.Model):
     idArticle = models.ForeignKey(Article, on_delete=models.CASCADE)
     idUser = models.ForeignKey(User, on_delete=models.CASCADE)
 
-
+# пары по Ане
 
